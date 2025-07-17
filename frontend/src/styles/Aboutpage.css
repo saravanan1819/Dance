@@ -1,0 +1,911 @@
+.a-first-section,
+.a-second-section,
+.a-third-section,
+.a-fourth-section,
+.a-fiveth-section,
+.a-sixth-section {
+  margin: 0px 80px;
+  position: relative;
+}
+.img {
+  width: 100%;
+  margin-top: 150px;
+}
+.img img {
+  width: 100%;
+  height: 100%;
+}
+.img h2 {
+  position: absolute;
+  top: -90px;
+  font-size: 70px;
+  line-height: 90px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.img h2 span {
+  color: #1b396a;
+}
+.img p {
+  position: absolute;
+  top: -80px;
+  right: 0;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+}
+.img .circle {
+  width: 120px;
+  height: 120px;
+  background-color: #1b396a;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.img .circle img {
+  width: 120px;
+  height: 120px;
+  background-color: #1b396a;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.a-second-section .about-all {
+  background-color: rgba(27, 57, 106, 0.1);
+  width: 100%;
+  border-radius: 30px;
+  padding: 50px 60px;
+  position: relative;
+  margin-top: 100px;
+}
+.a-second-section .about-all .text-div h2 {
+  font-size: 40px;
+}
+.about-all .text-div h2 span {
+  color: #1b396a;
+}
+.about-all .text-div p {
+  color: rgba(0, 0, 0, 0.906);
+  width: 60%;
+  font-size: 20px;
+  line-height: 35px;
+  margin-top: 20px;
+}
+.about-all .about-style {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0.2;
+  z-index: 1;
+}
+.about-all .box-all-parent {
+  display: flex;
+  justify-content: flex-end;
+}
+.about-all .boxs-all {
+  width: 70%;
+  margin-top: 100px;
+}
+.about-all .vision-mission {
+  display: flex;
+  gap: 50px;
+}
+.about-all .vision-box,
+.about-all .mission-box {
+  background-color: #1b396a;
+  color: white;
+  padding: 30px;
+  border-radius: 20px;
+  width: 50%;
+}
+.about-all .vision-box .box-circle,
+.about-all .mission-box .box-circle {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+}
+.about-all .vision-box h4,
+.about-all .mission-box h4 {
+  font-size: 22px;
+  margin-top: 40px;
+  font-weight: 400;
+}
+.about-all .vision-box p,
+.about-all .mission-box p {
+  font-size: 15px;
+  margin-top: 10px;
+  line-height: 25px;
+  font-weight: 200;
+}
+.about-all .objective {
+  background-color: #ffffff;
+  color: black;
+  padding: 30px;
+  border-radius: 20px;
+  width: 100%;
+  margin-top: 40px;
+  border: 1px solid #ccc;
+}
+.about-all .objective .circle-box {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(241, 241, 241);
+  border-radius: 50%;
+  border: 1px solid #ccc;
+}
+.about-all .objective h4 {
+  font-size: 22px;
+  margin-top: 40px;
+  font-weight: 400;
+}
+.about-all .objective p {
+  font-size: 15px;
+  margin-top: 10px;
+  line-height: 25px;
+  font-weight: 200;
+}
+
+.a-third-section {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.a-third-section .third-section-left h2 {
+  font-size: 70px;
+  font-weight: 500;
+}
+.a-third-section .third-section-right {
+  width: 60%;
+  margin-top: 10px;
+}
+.a-third-section .third-section-right p {
+  font-size: 25px;
+  line-height: 48px;
+  color: #626262;
+  font-weight: 300;
+}
+.a-third-section .third-section-right .second-p {
+  margin-top: 50px;
+}
+
+/* fourth */
+.a-fourth-section .service-overview {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #e9ecf1;
+  border-radius: 30px;
+  padding: 30px 40px;
+  padding-bottom: 60px;
+}
+.service-overview .service-section-left {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.service-overview .service-section-left .view-work-btn {
+  background-color: #1b396a;
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 15px;
+  width: fit-content;
+  cursor: pointer;
+}
+.service-overview .service-section-left p {
+  font-size: 30px;
+  line-height: 45px;
+  margin-top: 20px;
+  font-weight: 500;
+}
+.service-overview .service-section-left h2 {
+  font-size: 60px;
+  font-weight: 500;
+}
+.service-overview .service-section-right {
+  width: 60%;
+  margin-right: 10px;
+}
+.service-overview .service-section-right p {
+  font-size: 25px;
+  line-height: 45px;
+  color: #626262;
+  font-weight: 300;
+}
+.service-overview .service-section-right .second-p {
+  margin-top: 50px;
+}
+@media (max-width: 1100px) {
+  .a-first-section,
+  .a-second-section,
+  .a-third-section,
+  .a-fourth-section,
+  .a-fiveth-section,
+  .a-sixth-section {
+    margin: 0px 50px;
+  }
+  .img h2 {
+    top: -50px;
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .img {
+    width: 100%;
+    margin-top: 90px;
+  }
+  .img p {
+    top: -50px;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+  }
+  .img .circle {
+    width: 70px;
+    height: 70px;
+  }
+  .img .circle img {
+    width: 70px;
+    height: 70px;
+  }
+  /* second seciton */
+
+  .a-second-section .about-all {
+    border-radius: 30px;
+    padding: 30px 40px;
+    position: relative;
+    margin-top: 100px;
+  }
+  .about-all .boxs-all {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .a-second-section .about-all .text-div h2 {
+    font-size: 35px;
+  }
+  .about-all .text-div p {
+    color: rgba(0, 0, 0, 0.906);
+    width: 90%;
+    font-size: 19px;
+    line-height: 30px;
+    margin-top: 20px;
+  }
+  .about-all .about-style img {
+    width: 400px;
+  }
+
+  .about-all .box-all-parent {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .about-all .vision-mission {
+    display: flex;
+    gap: 20px;
+  }
+  .about-all .vision-box,
+  .about-all .mission-box {
+    padding: 20px;
+    width: 100%;
+  }
+  .about-all .vision-box h4,
+  .about-all .mission-box h4 {
+    font-size: 20px;
+    margin-top: 25px;
+  }
+  .about-all .vision-box p,
+  .about-all .mission-box p {
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 22px;
+  }
+  .about-all .vision-box .box-circle,
+  .about-all .mission-box .box-circle,
+  .about-all .objective .circle-box {
+    width: 40px;
+    height: 40px;
+  }
+  .about-all .objective h4 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .about-all .objective p {
+    font-size: 15px;
+    margin-top: 10px;
+    line-height: 23px;
+  }
+
+  /* third seciton */
+
+  .a-third-section {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .a-third-section .third-section-left h2 {
+    font-size: 40px;
+  }
+  .a-third-section .third-section-right {
+    width: 60%;
+    margin-top: 0px;
+  }
+  .a-third-section .third-section-right p {
+    font-size: 21px;
+    line-height: 36px;
+  }
+  .a-third-section .third-section-right .second-p {
+    margin-top: 30px;
+  }
+  /* fourth */
+  .a-fourth-section .service-overview {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #e9ecf1;
+    border-radius: 30px;
+    padding: 30px 30px;
+    padding-bottom: 40px;
+  }
+  .service-overview .service-section-left {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .service-overview .service-section-left .view-work-btn {
+    padding: 9px 18px;
+    font-size: 18px;
+  }
+  .service-overview .service-section-left p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 20px;
+    font-weight: 500;
+  }
+  .service-overview .service-section-left h2 {
+    font-size: 40px;
+  }
+  .service-overview .service-section-right p {
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .service-overview .service-section-right .second-p {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 600px) {
+  .a-first-section,
+  .a-second-section,
+  .a-third-section,
+  .a-fourth-section,
+  .a-fiveth-section,
+  .a-sixth-section {
+    margin: 0px 30px;
+  }
+  .img h2 {
+    top: -50px;
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .img {
+    width: 100%;
+    margin-top: 70px;
+  }
+  .img p {
+    position: absolute;
+    top: -40px;
+    right: 0;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0px;
+  }
+  .img .circle {
+    width: 50px;
+    height: 50px;
+  }
+  .img .circle img {
+    width: 50px;
+    height: 50px;
+  }
+  /* second seciton */
+
+  .a-second-section .about-all {
+    padding: 25px 30px;
+    margin-top: 80px;
+  }
+  .about-all .boxs-all {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .about-all .boxs-all {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .a-second-section .about-all .text-div h2 {
+    font-size: 30px;
+  }
+  .about-all .text-div p {
+    width: 90%;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 15px;
+  }
+  .about-all .vision-box,
+  .about-all .mission-box {
+    padding: 20px;
+    width: 100%;
+  }
+  .about-all .vision-box h4,
+  .about-all .mission-box h4,
+  .about-all .objective h4 {
+    font-size: 19px;
+    margin-top: 20px;
+  }
+
+  .about-all .vision-box p,
+  .about-all .mission-box p,
+  .about-all .objective p {
+    font-size: 12px;
+    margin-top: 10px;
+    line-height: 18px;
+  }
+  .about-all .vision-box .box-circle,
+  .about-all .mission-box .box-circle,
+  .about-all .objective .circle-box {
+    width: 40px;
+    height: 40px;
+  }
+  .about-all .objective {
+    margin-top: 25px;
+  }
+
+  .a-third-section {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .a-third-section .third-section-left h2 {
+    font-size: 35px;
+  }
+  .a-third-section .third-section-right {
+    width: 55%;
+    margin-top: 0px;
+  }
+  .a-third-section .third-section-right p {
+    font-size: 19px;
+    line-height: 30px;
+  }
+  .a-third-section .third-section-right .second-p {
+    margin-top: 20px;
+  }
+
+  .a-fourth-section .service-overview {
+    margin-top: 60px;
+    padding: 25px 25px;
+    padding-bottom: 40px;
+  }
+  .service-overview .service-section-left .view-work-btn {
+    padding: 9px 15px;
+    font-size: 15px;
+  }
+  .service-overview .service-section-left p {
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 10px;
+    font-weight: 500;
+  }
+  .service-overview .service-section-right {
+    width: 55%;
+  }
+  .service-overview .service-section-left h2 {
+    font-size: 35px;
+  }
+  .service-overview .service-section-right p {
+    font-size: 19px;
+    line-height: 30px;
+  }
+  .service-overview .service-section-right .second-p {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .a-first-section,
+  .a-second-section,
+  .a-third-section,
+  .a-fourth-section,
+  .a-fiveth-section,
+  .a-sixth-section {
+    margin: 0px 25px;
+  }
+  .img h2 {
+    top: -35px;
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .img {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .img p {
+    position: absolute;
+    top: -35px;
+    right: 0;
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 0px;
+  }
+  .img .circle {
+    width: 40px;
+    height: 40px;
+  }
+  .img .circle img {
+    width: 40px;
+    height: 40px;
+  }
+  /* second seciton */
+
+  .a-second-section .about-all {
+    padding: 25px 30px;
+    margin-top: 60px;
+  }
+  .about-all .boxs-all {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .about-all .boxs-all {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .a-second-section .about-all .text-div h2 {
+    font-size: 25px;
+  }
+  .about-all .text-div p {
+    width: 90%;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 15px;
+  }
+  .about-all .vision-box,
+  .about-all .mission-box,
+  .about-all .objective {
+    padding: 15px;
+    width: 100%;
+  }
+  .about-all .vision-box h4,
+  .about-all .mission-box h4,
+  .about-all .objective h4 {
+    font-size: 17px;
+    margin-top: 18px;
+  }
+
+  .about-all .vision-box p,
+  .about-all .mission-box p,
+  .about-all .objective p {
+    font-size: 12px;
+    margin-top: 8px;
+    line-height: 16.5px;
+  }
+  .about-all .vision-box .box-circle,
+  .about-all .mission-box .box-circle,
+  .about-all .objective .circle-box {
+    width: 38px;
+    height: 38px;
+  }
+
+  .a-third-section {
+    margin-top: 60px;
+  }
+  .a-third-section .third-section-left h2 {
+    font-size: 28px;
+  }
+  .a-third-section .third-section-right {
+    width: 55%;
+    margin-top: 0px;
+  }
+  .a-third-section .third-section-right p {
+    font-size: 17px;
+    line-height: 25px;
+  }
+  .a-third-section .third-section-right .second-p {
+    margin-top: 20px;
+  }
+
+  .a-fourth-section .service-overview {
+    margin-top: 60px;
+    padding: 20px 20px;
+    padding-bottom: 40px;
+  }
+  .service-overview .service-section-left .view-work-btn {
+    padding: 9px 15px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .service-overview .service-section-left p {
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+  }
+  .service-overview .service-section-right {
+    width: 55%;
+  }
+  .service-overview .service-section-left h2 {
+    font-size: 30px;
+  }
+  .service-overview .service-section-right p {
+    font-size: 17px;
+    line-height: 25px;
+  }
+  .service-overview .service-section-right .second-p {
+    margin-top: 20px;
+  }
+  .about-all .about-style img {
+    width: 300px;
+  }
+}
+@media (max-width: 450px) {
+  .img h2 {
+    top: -30px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .img {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .img p {
+    position: absolute;
+    top: -30px;
+    right: 0;
+    font-size: 9px;
+    line-height: 11px;
+    letter-spacing: 0px;
+  }
+  .img .circle {
+    width: 35px;
+    height: 35px;
+  }
+  .img .circle img {
+    width: 35px;
+    height: 35px;
+  }
+  /* second seciton */
+  .a-second-section .about-all {
+    padding: 25px 30px;
+    margin-top: 40px;
+  }
+  .about-all .boxs-all {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .about-all .boxs-all {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .about-all .vision-mission {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .a-second-section .about-all .text-div h2 {
+    font-size: 22px;
+  }
+  .about-all .text-div p {
+    width: 90%;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .about-all .vision-box,
+  .about-all .mission-box,
+  .about-all .objective {
+    padding: 15px;
+    width: 100%;
+  }
+  .about-all .vision-box h4,
+  .about-all .mission-box h4,
+  .about-all .objective h4 {
+    font-size: 16px;
+    margin-top: 18px;
+  }
+
+  .about-all .vision-box p,
+  .about-all .mission-box p,
+  .about-all .objective p {
+    font-size: 11.5px;
+    margin-top: 8px;
+    line-height: 17px;
+  }
+  .about-all .vision-box .box-circle,
+  .about-all .mission-box .box-circle,
+  .about-all .objective .circle-box {
+    width: 38px;
+    height: 38px;
+  }
+
+  .a-third-section {
+    margin-top: 50px;
+  }
+  .a-third-section .third-section-left h2 {
+    font-size: 25px;
+  }
+  .a-third-section .third-section-right {
+    width: 50%;
+    margin-top: 0px;
+  }
+  .a-third-section .third-section-right p {
+    font-size: 13px;
+    line-height: 22px;
+  }
+  .a-third-section .third-section-right .second-p {
+    margin-top: 15px;
+  }
+
+  .a-fourth-section .service-overview {
+    margin-top: 50px;
+    padding: 20px 20px;
+  }
+  .service-overview .service-section-left .view-work-btn {
+    padding: 5px 10px;
+    font-size: 10px;
+    line-height: 20px;
+  }
+  .service-overview .service-section-left p {
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 10px;
+    font-weight: 600;
+  }
+  .service-overview .service-section-right {
+    width: 55%;
+  }
+  .service-overview .service-section-left h2 {
+    font-size: 25px;
+  }
+  .service-overview .service-section-right {
+    width: 50%;
+  }
+  .service-overview .service-section-right p {
+    font-size: 13px;
+    line-height: 22px;
+  }
+  .service-overview .service-section-right .second-p {
+    margin-top: 15px;
+  }
+  .about-all .about-style img {
+    width: 250px;
+  }
+}
+@media (max-width: 400px) {
+  .img h2 {
+    top: -30px;
+    font-size: 16px;
+    line-height: 23px;
+  }
+  .img {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .img p {
+    position: absolute;
+    top: -28px;
+    right: 0;
+    font-size: 8px;
+    line-height: 10px;
+    letter-spacing: 0px;
+  }
+  .img .circle {
+    width: 30px;
+    height: 30px;
+  }
+  .img .circle img {
+    width: 30px;
+    height: 30px;
+  }
+  /* second seciton */
+  .a-second-section .about-all {
+    padding: 20px 20px;
+    margin-top: 40px;
+  }
+  .about-all .boxs-all {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .about-all .boxs-all {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .about-all .vision-mission {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .a-second-section .about-all .text-div h2 {
+    font-size: 19px;
+  }
+  .about-all .text-div p {
+    width: 90%;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .about-all .vision-box,
+  .about-all .mission-box,
+  .about-all .objective {
+    padding: 12px;
+    width: 100%;
+  }
+  .about-all .vision-box h4,
+  .about-all .mission-box h4,
+  .about-all .objective h4 {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+
+  .about-all .vision-box p,
+  .about-all .mission-box p,
+  .about-all .objective p {
+    font-size: 10px;
+    margin-top: 5px;
+    line-height: 15px;
+  }
+  .about-all .vision-box .box-circle,
+  .about-all .mission-box .box-circle,
+  .about-all .objective .circle-box {
+    width: 35px;
+    height: 35px;
+  }
+
+  .a-third-section {
+    margin-top: 50px;
+  }
+  .a-third-section .third-section-left h2 {
+    font-size: 22px;
+  }
+  .a-third-section .third-section-right {
+    width: 55%;
+    margin-top: 0px;
+  }
+  .a-third-section .third-section-right p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .a-third-section .third-section-right .second-p {
+    margin-top: 12px;
+  }
+
+  .a-fourth-section .service-overview {
+    margin-top: 40px;
+    padding: 20px 20px;
+  }
+  .service-overview .service-section-left .view-work-btn {
+    padding: 12px 9px;
+    font-size: 9px;
+    line-height: 2px;
+  }
+  .service-overview .service-section-left p {
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 10px;
+    font-weight: 600;
+  }
+
+  .service-overview .service-section-left h2 {
+    font-size: 22px;
+  }
+  .service-overview .service-section-right {
+    width: 58%;
+  }
+  .service-overview .service-section-right p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .service-overview .service-section-right .second-p {
+    margin-top: 12px;
+  }
+  .about-all .about-style img {
+    width: 200px;
+  }
+}

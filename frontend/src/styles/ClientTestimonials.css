@@ -1,0 +1,33 @@
+.testimonial-wrapper {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.testimonial-card {
+  background: linear-gradient(to bottom right, #ffffff, #f0f4f8);
+  border-radius: 20px;
+  padding: 30px;
+  min-height: 220px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.stars {
+  color: #003366;
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #003366;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .testimonial-card {
+    min-height: 180px;
+    padding: 20px;
+  }
+}
